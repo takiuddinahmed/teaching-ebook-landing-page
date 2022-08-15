@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 50px 130px;
+}
+
+.front-section {
+  background: linear-gradient(180deg, #2f364b 0%, #262b3d 85.25%);
+  color: #ffffff;
+}
+
+.front-section nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+}
+
+.brand .brand-logo {
+  background-color: #00bac7;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+
+  font-weight: 700;
+}
+.brand .brand-name {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.menu {
+}
+.menu span {
+  margin-left: 25px;
+  margin-right: 25px;
+  color: rgba(255, 255, 255, 0.9);
+  /* color: #000000; */
+  cursor: pointer;
+}
+
+.menu .active {
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+}
+
+.rounded-btn {
+  padding: 15px 30px;
+  border-radius: 100px;
+  cursor: pointer;
+}
